@@ -1,0 +1,16 @@
+{
+  "short_name": "Haktiv8 - Interview",
+  "name": "Haktiv8 - Interview",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "100x100",
+      "type": "image/ico"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "gcm_sender_id" : "1072185131438"
+}

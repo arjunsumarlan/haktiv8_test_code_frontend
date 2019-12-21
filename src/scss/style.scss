@@ -1,0 +1,52 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import styles
+@import "~@coreui/coreui/scss/coreui.scss";
+
+// Temp fix for reactstrap
+@import '~@coreui/coreui/scss/_dropdown-menu-right.scss';
+
+// If you want to add something do it here
+@import "custom";
+
+// ie fixes
+@import "ie-fix";
+
+.numberCircle {
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    padding: 3px;
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+    font: 12px Arial, sans-serif;
+}
+.circleImg {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.btn-circle {
+  width: 20px;
+  height: 20px;
+  padding: 2px 0px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 10px;
+  line-height: 1.42857;
+}
+.bordered {
+  width: 100%;
+  height: 50px;
+  padding: 20px;
+  border: 1px dotted grey;
+  border-radius: 10px;
+}
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
